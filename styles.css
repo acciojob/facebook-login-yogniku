@@ -6,4 +6,17 @@ body{
 left{ 
  width:450px; margin-top:70px; display:inline-block;
 }
-	form{display:flex; width:300px;background-color:white; padding:20px;border-radius:5px;  box-shadow:0 0 10px #ccc; flex-direction-column:10px; gap:10px;
+	form{display:flex; width:300px;background-color:white; padding:20px;border-radius:5px;  box-shadow:0 0 10px #ccc; flex-direction:column;gap:10px;
+		}
+input{
+	border:1px solid #ccc;border-radius:5px; padding:10px;
+}
+button{
+	background-color:#1877f2;border-radius:5px; padding:10px 20px; 
+}
+a{
+	text-underline-offset:none;
+	color:#1877f2;
+}.signup{
+	background-color:42b72a;border-radius:5px; padding:10px 20px; 
+}
